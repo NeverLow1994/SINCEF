@@ -1,0 +1,15 @@
+Package: SINCEF
+Type: Package
+Title: Single-cell methylation data clustering for identifying epigenetic heterogeneity
+Version: 0.1.0
+Author: Qi Tian <tqglowing@std.uestc.edu.cn>
+Maintainer: Qi Tian <tqglowing@std.uestc.edu.cn>
+Description: Single-cell methylation data clustering by reconstructing dissimilarity matrix with embedding fusion.
+License: MIT
+Encoding: UTF-8
+Imports: umap, 
+         pheatmap, 
+         aricode, 
+         parallel
+LazyData: true
+RoxygenNote: 7.1.1
