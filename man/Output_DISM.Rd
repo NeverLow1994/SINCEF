@@ -20,8 +20,8 @@ the corresponding dissimilarity matrix
 Get the corresponding dissimilarity matrix using single-cell methylation data
 }
 \examples{
-data_cell <- load('data_blood.RData')
-view(data_cell)
-dism_pearson <- Output_DISM(k_cpu=8,data_cell,method='Pearson')
+load('data_bd.RData')
+view(data_BLOOD)
+dism_pearson <- Output_DISM(k_cpu=8,data_BLOOD,method='Pearson')
 
 }
