@@ -13,7 +13,7 @@ mat_F(df)
 dataframe
 }
 \description{
-An unsupervised clustering approach for Single-cell methylome clustering by reconstructing dissimilarity matrix between pairs of cells with embedding fusion.
+Obtain common methylation sites for any two cells
 }
 \examples{
 df_test <- mat_F(df)
