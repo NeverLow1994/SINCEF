@@ -8,8 +8,6 @@ nm(x)
 }
 \arguments{
 \item{x}{vectors or matrix}
-
-\item{method}{the normalization method to be used. This must be one of "Norm" ,or "scale"}
 }
 \value{
 vectors or matrix
@@ -18,6 +16,6 @@ vectors or matrix
 Normalize a vector or matrix
 }
 \examples{
-x_nm <- nm(x,method='Norm')
+x_nm <- nm(x)
 
 }
