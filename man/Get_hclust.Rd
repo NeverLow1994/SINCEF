@@ -2,12 +2,12 @@
 % Please edit documentation in R/SINCEF_source.R
 \name{Get_hclust}
 \alias{Get_hclust}
-\title{Hierarchical clustering}
+\title{Hierarchical clustering visualization}
 \usage{
-Get_hclust(rsm_list)
+Get_hclust(rcdm)
 }
 \arguments{
-\item{rsm_list}{the reconstruction dissimilarity matrix list}
+\item{rcdm}{the reconstructed dissimilarity matrix}
 }
 \value{
 hierarchical clustering result
