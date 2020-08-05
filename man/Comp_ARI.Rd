@@ -4,10 +4,10 @@
 \alias{Comp_ARI}
 \title{Assess clustering performace}
 \usage{
-Comp_ARI(rsm_list, clu, ref_label)
+Comp_ARI(hc_obj, clu, ref_label)
 }
 \arguments{
-\item{rsm_list}{the reconstruction dissimilarity matrix list}
+\item{hc_obj}{the hierarchical clustering object from reconstructed dissimilarity matrix}
 
 \item{clu}{the potential cluster number which could be obtained from hierarchical clustering heatmap of Get_hclust}
 
@@ -17,10 +17,10 @@ Comp_ARI(rsm_list, clu, ref_label)
 the clustering performance
 }
 \description{
-Calculate ARI to evaluate clustering performance in combination with known cell types
+Calculate ARI to evaluate clustering performance
 }
 \examples{
-true_label <- load('syth_label.RData')
+true_label <- load('ref_label.RData')
 k_clu <- 6
-ARI_test <- Comp_ARI(rsm,k_clu,true_label)
+ARI_test <- Comp_ARI(hc_obj,k_clu,true_label)
 }
