@@ -1,5 +1,5 @@
 # SINCEF
-Single-cell DNA methylome clustering by reconstructing dissimilarity matrix with embedding fusion
+Single-cell DNA methylome clustering by reconstructing dissimilarity matrix with embedding fusion. SINCEF is provided as an R package which could be installed by the corresponding SINCEF_0.1.0.tar.gz file.
 
 # Tutorial
 
