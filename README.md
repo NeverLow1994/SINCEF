@@ -62,7 +62,7 @@ Single-cell DNA methylome clustering by reconstructing dissimilarity matrix with
 
 ## Step 6
 
-   Load cell reference labels to evaluate hierarchical clustering performance.
+   Load cell reference labels to evaluate clustering performance using ARI.
    
     load('ref_label.RData')
     
@@ -72,6 +72,6 @@ Single-cell DNA methylome clustering by reconstructing dissimilarity matrix with
     
 # Note
 
-  1. When calculating the dissimilarity matrix, please set it reasonably according to the number of available cores of your PC or server, otherwise it is easy to cause memory overflow.
+  1. When calculating the dissimilarity matrix, please set it reasonably according to the number of available cores of your PC or server, otherwise it may cause memory overflow.
   
   2. Any problems or bugs encountered during the use of SINCEF, please contact tqglowing@std.uestc.edu.cn.
